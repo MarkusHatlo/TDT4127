@@ -1,0 +1,1 @@
+print('Newtons Metode')
