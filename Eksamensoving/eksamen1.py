@@ -4,9 +4,11 @@ import numpy as np
 
 
 #    return A
-# def swap(A,i,j):
+def swap(A,i,j):
+    
+    return A
 
-# return A
+
 def mult(A,i,c):
     lengde = len(A[i])
     for j in range(lengde):
@@ -14,7 +16,7 @@ def mult(A,i,c):
     return A
 
 A = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12]],dtype=float)
-mult(A,1,3)
+#mult(A,1,3)
 print(A)
 
 #Oppgave 8
